@@ -24,7 +24,7 @@ class Hug(commands.Cog):
     
     @commands.guild_only()
     @commands.command(aliases=['hugs'])
-    async def hug(self, ctx, huggee: discord.Member):
+    async def sarıl(self, ctx, huggee: discord.Member):
         """Give someone a hug!"""
         
         hugger = ctx.author
