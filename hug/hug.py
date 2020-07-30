@@ -12,7 +12,7 @@ from redbot.core import commands, checks, Config
 from redbot.core.data_manager import bundled_data_path
 
 class Hug(commands.Cog):
-    """Give someone an anime hug!"""
+    """Birisine sarıl!"""
 
     def __init__(self, bot):
         self.bot = bot
