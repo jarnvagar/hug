@@ -40,7 +40,7 @@ class Hug(commands.Cog):
             hugsies = huggee.name
 
         gif = random.choice(self.gifs)
-        title = f"**{hugger}** gives **{hugsies}** a big, warm hug!"
+        title = f"**{hugsies}** sana kocaman, sıcacık bir sarılma!"
 
         em_perms = ctx.channel.permissions_for(ctx.me).embed_links
 
